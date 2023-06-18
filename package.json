@@ -1,7 +1,7 @@
 {
-  "name": "react-switch",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@usmangurowa/react-switch",
+  "version": "1.0.1",
+  "description": "A customizable switch component for React applications",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -12,8 +12,26 @@
     "build": "tsc",
     "publish": "npm publish --access public"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react",
+    "switch",
+    "toggle",
+    "component",
+    "UI",
+    "form"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usmangurowa/react-switch.git"
+  },
+  "homepage": "https://github.com/usmangurowa/react-switch",
+  "bugs": {
+    "url": "https://github.com/usmangurowa/react-switch/issues"
+  },
+  "author": "Usman Hassan",
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
   "license": "ISC",
   "dependencies": {
     "react": "^18.2.0"
