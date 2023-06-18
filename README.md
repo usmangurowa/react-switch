@@ -73,7 +73,7 @@ The `Case` component represents a case within the `Switch` component.
 
 ```jsx
 import React, { useState } from "react";
-import { Switch, Case } from "react-switch";
+import { Switch, Case } from "@usmangurowa/react-switch";
 
 const ToggleSwitch = () => {
   const [isOn, setIsOn] = useState(false);
@@ -101,7 +101,7 @@ export default ToggleSwitch;
 
 ```jsx
 import React, { useState } from "react";
-import { Switch, Case } from "react-switch";
+import { Switch, Case } from "@usmangurowa/react-switch";
 
 const UserRoleSwitch = () => {
   const [userRole, setUserRole] = useState("user");
