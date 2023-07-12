@@ -83,11 +83,11 @@ const ToggleSwitch = () => {
   };
 
   return (
-    <Switch case={isOn.toString()}>
-      <Case when="true">
+    <Switch case={isOn}>
+      <Case when={true}>
         <button onClick={handleToggle}>ON</button>
       </Case>
-      <Case when="false">
+      <Case when={false}>
         <button onClick={handleToggle}>OFF</button>
       </Case>
     </Switch>

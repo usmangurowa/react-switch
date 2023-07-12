@@ -1,15 +1,15 @@
 import React from "react";
 
 type CaseProps = {
-  case?: string;
-  when?: string;
+  case?: string | boolean;
+  when?: string | boolean;
   component?: React.ReactNode;
   children?: React.ReactNode;
   default?: boolean;
 };
 
 interface SwitchProps {
-  case?: string;
+  case?: string | boolean;
   children?: React.ReactNode;
 }
 

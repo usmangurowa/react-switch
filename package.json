@@ -1,6 +1,6 @@
 {
   "name": "@usmangurowa/react-switch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A customizable switch component for React applications",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
